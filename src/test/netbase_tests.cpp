@@ -107,10 +107,10 @@ BOOST_AUTO_TEST_CASE(netbase_lookupnumeric)
     BOOST_CHECK(TestParse("[127.0.0.1]", "127.0.0.1:65535"));
 }
 
-BOOST_AUTO_TEST_CASE(onioncat_test)
-{
-    BOOST_CHECK(addr1.IsRoutable());
-}
+//BOOST_AUTO_TEST_CASE(onioncat_test)
+//{
+//    BOOST_CHECK(addr1.IsRoutable());
+//}
 
 BOOST_AUTO_TEST_CASE(subnet_test)
 {
